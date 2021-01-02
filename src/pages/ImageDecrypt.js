@@ -46,8 +46,9 @@ export default class ImageDecrypt extends React.Component {
                 <canvas className="ImageCanvas" ref={this.canvasRef} style={canvasStyle} />
                 <input id="fileUploadInput" type="file" accept="image/png" ref={(ref) => this.upload = ref} style={{ display: 'none' }}
                     onChange={this.onChangeFile.bind(this)} />
-                { this.state.isUploaded && <p>Hidden text is: <div className="HiddenTextContainer">{this.state.hiddenText} </div> </p>}
+                { this.state.isUploaded && <p style={{width: "100%"}}>Hidden text is: <div className="HiddenTextContainer">{this.state.hiddenText} </div> </p>}
                 <Button text="Upload" size="big" onClick={() => { this.upload.click() }}></Button>
+                <subtitle>This can take a while if your image is big. Please wait</subtitle>
             </div>
         )
     }

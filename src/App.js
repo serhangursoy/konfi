@@ -21,23 +21,26 @@ function App() {
         <ul className="nav">
           <img alt="logo" src={logo} className="logo" /><h1 className="BrandName">Konfi</h1>
           <li>
-            <Link to="/">Hide</Link>
+            <Link to="/konfi/">Hide</Link>
           </li>
           <li>
-            <Link to="/reveal">Reveal</Link>
+            <Link to="/konfi/reveal">Reveal</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/konfi/about">About</Link>
           </li>
         </ul>
       </nav>
 
       <Switch>
-        <Route path="/about">
+        <Route path="/konfi/about">
           <About />
         </Route>
-        <Route path="/reveal">
+        <Route path="/konfi/reveal">
           <ImageDecrypt />
+        </Route>
+        <Route path="/konfi/">
+          <ImageCrypt />
         </Route>
         <Route path="/">
           <ImageCrypt />

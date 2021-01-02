@@ -14,23 +14,14 @@ export default class TextArea extends React.Component {
         };
     }
 
-    determineStyle() {
-        let styleObject = {
-            width: this.props.size ? this.props.size : "90vw"
-        }
-        return styleObject
-    }
-
     onInputHandler(event) {
         this.setState({ textValue: event.target.value }, this.props?.onInput(event.target.value));
     }
 
     render() {
-        let componentStyle = this.determineStyle();
-        
         return (
             <div className="TextareaParent">
-                <textarea maxLength={this.props.textMaxLength} style={componentStyle} className={this.props.isDisabled? "InputTextArea TextDisabled":"InputTextArea"} type="text" placeholder="Your Secret Message" value={this.state.textValue} onInput={this.onInputHandler.bind(this)} />
+                <textarea maxLength={this.props.textMaxLength} className={this.props.isDisabled? "InputTextArea TextDisabled":"InputTextArea"} type="text" placeholder="Your Secret Message" value={this.state.textValue} onInput={this.onInputHandler.bind(this)} />
                 <p className="InformationText">This image can only take up to {this.props.textMaxLength} characters. You used {this.state.textValue.length} characters ( not words )</p>
             </div>)
     }

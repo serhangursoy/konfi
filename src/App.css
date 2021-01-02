@@ -216,9 +216,42 @@ subtitle{
   box-sizing: "border-box";
 }
 
+.InputTextArea{
+  width: 95vw;;
+}
 .InputTextArea:focus{
 border-color: #fff !important;
     box-shadow: 0 0 0 0.125em rgba(255,255,255,0.25) !important;
     outline: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 32px;
+  }
+
+  .nav li a {
+    padding: 0px 10px;
+    line-height: 30px;
+  }
+
+  .BrandName {
+    margin-top: .5rem;
+    margin-left: .2rem;
+    font-size: 1.3rem;
+  }
+
+  .ImageCanvas {
+    width: 90%;
+  }
+
+  .InputTextArea{
+    width: 70vw;
+  }
+
+  .AboutSection img{
+    width: 60%;
+  }
+}
+
 
