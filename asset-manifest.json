@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/serhangursoy/konfi/static/css/main.f3b7bbc4.chunk.css",
+    "main.js": "/serhangursoy/konfi/static/js/main.1448f2d1.chunk.js",
+    "main.js.map": "/serhangursoy/konfi/static/js/main.1448f2d1.chunk.js.map",
+    "runtime-main.js": "/serhangursoy/konfi/static/js/runtime-main.502eefd8.js",
+    "runtime-main.js.map": "/serhangursoy/konfi/static/js/runtime-main.502eefd8.js.map",
+    "static/css/2.f2c13908.chunk.css": "/serhangursoy/konfi/static/css/2.f2c13908.chunk.css",
+    "static/js/2.3e657cbf.chunk.js": "/serhangursoy/konfi/static/js/2.3e657cbf.chunk.js",
+    "static/js/2.3e657cbf.chunk.js.map": "/serhangursoy/konfi/static/js/2.3e657cbf.chunk.js.map",
+    "static/js/3.6ce7dbb6.chunk.js": "/serhangursoy/konfi/static/js/3.6ce7dbb6.chunk.js",
+    "static/js/3.6ce7dbb6.chunk.js.map": "/serhangursoy/konfi/static/js/3.6ce7dbb6.chunk.js.map",
+    "index.html": "/serhangursoy/konfi/index.html",
+    "static/css/2.f2c13908.chunk.css.map": "/serhangursoy/konfi/static/css/2.f2c13908.chunk.css.map",
+    "static/css/main.f3b7bbc4.chunk.css.map": "/serhangursoy/konfi/static/css/main.f3b7bbc4.chunk.css.map",
+    "static/js/2.3e657cbf.chunk.js.LICENSE.txt": "/serhangursoy/konfi/static/js/2.3e657cbf.chunk.js.LICENSE.txt",
+    "static/media/logo.01210f68.png": "/serhangursoy/konfi/static/media/logo.01210f68.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.502eefd8.js",
+    "static/css/2.f2c13908.chunk.css",
+    "static/js/2.3e657cbf.chunk.js",
+    "static/css/main.f3b7bbc4.chunk.css",
+    "static/js/main.1448f2d1.chunk.js"
+  ]
+}
