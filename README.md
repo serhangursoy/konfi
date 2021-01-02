@@ -1,17 +1,23 @@
+
+<div style="text-align:center"><img src="https://live.staticflickr.com/65535/50792981131_980f083cca_o.png" /></div>
+
+
 # Konfi
 ##### Simple Steganography example with React JS
 Konfi is really simple demo of LSB replacing to achieve basic version of Steganography.
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)]()
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
-![](https://i.ibb.co/DLNzGjX/Untitled.png)
+
+
+<div style="text-align:center"><img src="https://i.ibb.co/DLNzGjX/Untitled.png" /></div>
+
 # About
 ### About Steganography
 Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection; the secret data is then extracted at its destination. The use of steganography can be combined with encryption as an extra step for hiding or protecting data. The word steganography is derived from the Greek words steganos (meaning hidden or covered) and the Greek root graph (meaning to write).  
 Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content; the data to be hidden can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some way in order to increase the difficulty of detecting the secret content.
 
 ### About Konfi
-
 Konfi is a small project that demonstrates the usage of Steganography algorithms.  
 All you need to do is uploading a photo and defining your message. Rest will be handled by the algorithm.  
 **You are not uploading anything to any server - everything happens in the browser, hence, it's secure ( also slow if you upload a huge image )**
