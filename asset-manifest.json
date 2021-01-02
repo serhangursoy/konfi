@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/konfi/static/css/main.f3b7bbc4.chunk.css",
-    "main.js": "/konfi/static/js/main.1448f2d1.chunk.js",
-    "main.js.map": "/konfi/static/js/main.1448f2d1.chunk.js.map",
+    "main.css": "/konfi/static/css/main.47d61b57.chunk.css",
+    "main.js": "/konfi/static/js/main.163ab54a.chunk.js",
+    "main.js.map": "/konfi/static/js/main.163ab54a.chunk.js.map",
     "runtime-main.js": "/konfi/static/js/runtime-main.d65ce99d.js",
     "runtime-main.js.map": "/konfi/static/js/runtime-main.d65ce99d.js.map",
     "static/css/2.f2c13908.chunk.css": "/konfi/static/css/2.f2c13908.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6ce7dbb6.chunk.js.map": "/konfi/static/js/3.6ce7dbb6.chunk.js.map",
     "index.html": "/konfi/index.html",
     "static/css/2.f2c13908.chunk.css.map": "/konfi/static/css/2.f2c13908.chunk.css.map",
-    "static/css/main.f3b7bbc4.chunk.css.map": "/konfi/static/css/main.f3b7bbc4.chunk.css.map",
+    "static/css/main.47d61b57.chunk.css.map": "/konfi/static/css/main.47d61b57.chunk.css.map",
     "static/js/2.3e657cbf.chunk.js.LICENSE.txt": "/konfi/static/js/2.3e657cbf.chunk.js.LICENSE.txt",
     "static/media/logo.01210f68.png": "/konfi/static/media/logo.01210f68.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.d65ce99d.js",
     "static/css/2.f2c13908.chunk.css",
     "static/js/2.3e657cbf.chunk.js",
-    "static/css/main.f3b7bbc4.chunk.css",
-    "static/js/main.1448f2d1.chunk.js"
+    "static/css/main.47d61b57.chunk.css",
+    "static/js/main.163ab54a.chunk.js"
   ]
 }
